@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body{
+ 	background-color: aliceblue;
+	}
+h1{
+	color: blue;
+	}
+
+	 
+
+}
+
+
+
+/* Body */
+body {
+	font-family: source-sans-pro;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 40px;
+	margin-left: 93px;
+	font-style: normal;
+	font-weight: 200;
+}
+.wrapper-mai{
+	font-family: source-sans-pro;
+	font-weight: 200;
+	width: 1000px;
+	margin: 0 auto;
+}
+	
+header {
+	width: 100%;
+	height: 15%;
+	background-color: #52bad5;
+	border-bottom: 1px solid #2C9AB7;
+}
+.logo {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+	width: 95%;
+	float: center;
+	background-color:#D6D9E6;
+	margin-top: 20px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	border-radius: 50px;
+
+}
+.teaser {
+	border-radius: 20px;
+	margin-bottom: 22px;
+	max-width: 100%;
+	text-align: center;
+
+}
+
+
+
+
+.galler{
+	width: auto;
+	float: center;
+	margin-left: 360px;
+	margin-top: 200px;
+
+}
+@media screen and (orientation:landscape) and (min-width:669px){
+}
