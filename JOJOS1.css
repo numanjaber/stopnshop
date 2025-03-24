@@ -1,70 +1,183 @@
 @charset "UTF-8";
 body{
- 	background-color: aliceblue;
-	}
-h1{
-	color: blue;
-	}
+ 	background-color:aliceblue;
+}
 
-	 
+.flex {
+  display: flex;	
+}
+.flex > * {
+  flex: 50%;
+
+}
+.logo {
+	padding-top: 10px;
+	padding-left: 60px;
+}
+.container {
+
+ background-image:url("images/background.png");
+ background-color:#332F2C; 
+ background-size: cover;
+ display: flex;
+ flex-direction:row;
+ padding-bottom: 50px;
+ padding-top: 50px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+  margin-left: 10px;	
 
 }
 
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.section-one{
+  font-family: "Lorem Ipsum";
+  font-size: 20px;
+  color:#ffffff;
+  font-weight: 200;
+  margin-left: 270px; 
+  margin-bottom: 150px;
+} 
+
+.section-two{
+  font-family: "Lorem Ipsum";
+  font-size: 20px;
+  color:#ffffff;
+  font-weight: 200;
+  margin-left: 270px;
+  margin-top: 150px;
+}
+
+.footer{ 
+  font-family: "Lorem Ipsum";
+  background-color:#332F2C;
+  font-size: 20px;
+  color:#ffffff;
+  image:url("images/");
+  font-weight: 200;
+  padding-top: 50px;
+}
+ 
+.text_column {
+    font-family: "Lorem Ipsum";
+	padding-bottom: 20px;
+	font-size: 20px;
+    color:#056F40;
+    font-weight: 200;
+}
+
+
+ /* Each section will take up 33.33% of the container space */
+.flex{
+	flex:33.33%;
+    padding-top: 90px;
+}
+.vapeimg {
+    margin-top: 60px;	
+}
+.text_column_vape {
+
+	margin-left: 130px;
+    font-family: "Lorem Ipsum";
+	font-size: 20px;
+    color:#056F40;
+    font-weight: 200;
+}
+.vape  {
+    display:flex;  
+	margin-left:144px;
+	margin-bottom: 90px;
+	margin-top: 0px;	
+}
 
 
 /* Body */
 body {
-	font-family: source-sans-pro;
-	margin-top: 30px;
+	font-family: Lorem Ipsum;
+	margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: 40px;
-	margin-left: 93px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
 }
 .wrapper-mai{
-	font-family: source-sans-pro;
+	font-family: Lorem Ipsum;
 	font-weight: 200;
 	width: 1000px;
 	margin: 0 auto;
 }
 	
-header {
-	width: 100%;
-	height: 15%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
+.header {
+ 
+  word-spacing: 20px;
+  margin-right: 0px;
+  color:#ffffff;
+  text-align: end;
+  font-weight: 200;
+  padding-top: 2px;
+  padding-bottom:59px;
+  margin-left: 0px;
+  background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
 }
-.logo {
-	color: blue;
-	font-weight: bold;
-	text-align: center;
-	width: 95%;
-	float: center;
-	background-color:#D6D9E6;
-	margin-top: 20px;
+.navigation{
+  font-family: "Lorem Ipsum";
+  font-size: 20px;
+  text-decoration: none;
+  word-spacing: 20px;
+  margin-right: 40px;
+  color:#ffffff;
+  text-align: end;
+  font-weight: 200;
+  padding-top: 2px;
+}
+ .about {
 	margin-left: 0px;
-	letter-spacing: 4px;
-	border-radius: 50px;
-
-}
-.teaser {
-	border-radius: 20px;
-	margin-bottom: 22px;
-	max-width: 100%;
-	text-align: center;
+	margin-top: 20px;
+	padding-top:0px;
 
 }
 
-
-
-
-.galler{
-	width: auto;
+.galler {
+	width: 100%;
 	float: center;
-	margin-left: 360px;
-	margin-top: 200px;
+	background: #000000;
+	margin-left: 0px;
+	
+}
+.google-map {
+     padding-bottom: 50%;
 
 }
-@media screen and (orientation:landscape) and (min-width:669px){
+
+.google-map iframe {
+    height: 350px;
+	width: 450px;
+	margin-left:0px;
+    left: 0;
+    top: 0;
 }
+.name {
+    margin-left:70px}
+.message {
+	margin-left:45px;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+.submit {
+		margin-left:140px;
+
+}
+
+
+ 
+
+
+
