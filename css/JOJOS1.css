@@ -16,7 +16,7 @@ body{
 }
 .container {
 
- background-image:url("../images/background.png");
+ background-image:url("../../../stopnshop/images/background.png");
  background-color:#332F2C; 
  background-size: cover;
  display: flex;
@@ -60,7 +60,7 @@ body{
   background-color:#332F2C;
   font-size: 20px;
   color:#ffffff;
-  image:url("../images");
+  image:url("../../../stopnshop/images");
   font-weight: 200;
   padding-top: 50px;
 }
@@ -99,7 +99,7 @@ body{
 
 
 /* Body */
-body {
+.body {
 	font-family: Lorem Ipsum;
 	margin-top: 0px;
 	margin-right: 0px;
