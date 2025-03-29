@@ -45,6 +45,7 @@ body{
   font-weight: 200;
   margin-left: 270px; 
   margin-bottom: 150px;
+	align: center;
 } 
 
 .section-two{
@@ -63,6 +64,7 @@ body{
   color:#ffffff;
   font-weight: 200;
   padding-top: 50px;
+
 }
  
 .text_column {
@@ -89,12 +91,17 @@ body{
 	font-size: 20px;
     color:#056F40;
     font-weight: 200;
+	align: justify;
 }
 .vape  {
     display:flex;  
 	margin-left:144px;
 	margin-bottom: 90px;
-	margin-top: 0px;	
+	margin-top: 0px;
+	width:600px;
+	height:800px;
+	
+	
 }
 
 
@@ -148,6 +155,7 @@ body{
 .galler {
 	width: 100%;
 	float: center;
+
 	background: #000000;
 	margin-left: 0px;
 	
@@ -175,9 +183,13 @@ body{
 		margin-left:140px;
 
 }
-
-
- 
+.column{
+	width:550px;
+	height: 300px;
+}
+.name{
+float: 
+}
 
 
 
